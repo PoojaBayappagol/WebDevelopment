@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    border-color: black;
+    background-image: url(https://images.unsplash.com/photo-1761046104456-6026cd306c3d?ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&q=80&w=870);
+    background-position: center;
+    background-size: cover;
+    color: rgb(210, 212, 77);
+    padding: 30px;
+    text-align: center;
+}
+
+h1{
+    font-size: 75px;
+    font-family: Helvetica, sans-serif;
+    font-weight: 527;
+    padding: 20px;
+    
+
+
+}
+button{
+    font-size: 20px;
+    color: rgb(115, 133, 36);
+    padding: 8px 20px;
+    background-color: rgb(66, 73, 40);
+    border: 3px solid rgb(60, 95, 44);
+    font-weight: 400;
+    font-family:Helvetica, sans-serif;
+    border-radius: 15px;
+}
