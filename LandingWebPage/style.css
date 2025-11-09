@@ -1,0 +1,151 @@
+@font-face {
+    font-family: font;
+    src: url(Modern\ Prestige\ DEMO.otf);
+}
+@font-face {
+    font-family:Baloo; 
+    src: url(BalooBhai2-VariableFont_wght.ttf);
+} 
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body,html{
+    height: 100%;
+    width: 100%;
+    
+}
+
+.hero_section{
+    height: 100vh;
+    width: 100%;
+    background-image: url(image1.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 40px;
+    color: rgb(15, 15, 15);
+    font-family: baloo;
+    
+}
+
+
+.section1{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 50px;
+    background-color:black;
+    color: white;
+    font-weight: 100;
+    
+}
+
+.section2{
+    height: 450px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+    
+}
+
+.card{
+    height: 400px;
+    width: 350px;
+    border-radius: 20px;
+    border: 2px solid white;
+    margin: 20px;
+    background-color: rgb(245, 237, 237);
+
+}
+
+.card img{
+    height: 180px;
+    width: 100%;
+    border-radius: 20px;
+    
+}
+
+.card h2{
+    font-family: baloo;
+    font-size: 30px;
+    margin: 8px;
+    color: rgb(12, 12, 12);
+}
+.card p{
+    font-family: baloo;
+    font-size: 15px;
+    margin: 10px;
+    color: rgb(14, 13, 13);
+}
+
+.section3{
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: black;
+    background-color: white;
+    font-family: baloo;
+
+}
+.card1{
+    background-color: rgb(167, 103, 167);
+}
+
+.card1 h2{
+    font-size: 40px;
+    margin: 20px;
+    
+}
+.card1 p{
+    font-size: 20px;
+    margin: 30px;
+}
+.card2{
+    background-color: rgb(240, 186, 87);
+}
+
+.card2 h2{
+    font-size: 40px;
+    margin: 20px;
+    
+}
+.card2 p{
+    font-size: 20px;
+    margin: 30px;
+}
+
+.footer{
+    height: 80px;
+    width: 100%;
+    background-color: rgb(26, 25, 25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+    font-family: baloo;
+    font-size: 20px;
+}
+
+
