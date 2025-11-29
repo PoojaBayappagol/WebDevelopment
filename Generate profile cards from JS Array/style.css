@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+
+main{
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.card {
+    height: 450px;
+    width: 400px;
+    background-color: rgb(178, 226, 169);
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+
+
+.card img{
+    height: 60%;
+    width: 80%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.card h4{
+    color: red;
+    font-size: 25px;
+}
+
+.card h3{
+    font-size: 30px;
+}
+

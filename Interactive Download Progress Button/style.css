@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+}
+
+main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    height: 200px;
+    width: 500px;
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.card p{
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: 450;
+}
+
+.card p span{
+    font-weight: 700;
+    color: royalblue;
+}
+
+.outer{
+    height: 20px;
+    width: 100%;
+    background-color: gray;
+    border: none;
+    border-radius: 50px;
+}
+.inner{
+    height: 100%;
+    width: 0%;
+    background-color: green;
+    margin-top: 20px;
+    border-radius: 50px;
+    
+}
+
+.bottom{
+    padding: 30px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bottom h2{
+    font-size: 50px;
+
+
+    
+}
+
+.bottom button{
+    padding: 12px 25px;
+    background-color: green;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.bottom button:active{
+    scale: 0.95;
+}
